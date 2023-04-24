@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f7;
+  background-color: #770b0b;
 }
 
 .game {
@@ -30,8 +30,8 @@ body {
 .dino {
   position: absolute;
   bottom: 0;
-  background-image: url(img/dino.gif);
-  width: 280px;
+  background-image: url(img/michael.gif);
+  width: 200px;
   height: 130px;
   background-size: 280px;
   background-repeat: no-repeat;
@@ -41,10 +41,10 @@ body {
 .cacto {
   position: absolute;
   bottom: 0;
-  background-image: url(img/cacto.png);
-  width: 35px;
-  height: 70px;
-  background-size: 35px;
+  background-image: url(img/donald.gif);
+  width: 255px;
+  height: 120px;
+  background-size: 250px;
   background-repeat: no-repeat;
   animation: cacto 3s linear infinite;
 }
