@@ -30,7 +30,7 @@ setInterval(() => {
     window.getComputedStyle(cacto).getPropertyValue("left")
   );
 
-  if (cactoLeft > 40 && cactoLeft < 205 && dinoBottom <= 50 && !alreadyJump) {
+  if (cactoLeft > 40 && cactoLeft < 155 && dinoBottom <= 50 && !alreadyJump) {
     alert(`Você Foi Preso, Caso encerrado: ${count}`);
     count = 0;
   }

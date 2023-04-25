@@ -9,7 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #770b0b;
+  bacground-image: url("img/fbi.gif")
+  
 }
 
 .game {
@@ -44,7 +45,7 @@ body {
   background-image: url(img/donald.gif);
   width: 255px;
   height: 120px;
-  background-size: 250px;
+  background-size: 150px;
   background-repeat: no-repeat;
   animation: cacto 3s linear infinite;
 }
