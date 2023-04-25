@@ -36,5 +36,5 @@ setInterval(() => {
   }
 
   count++;
-  score.innerHTML = `SCORE: ${count}`;
+  score.innerHTML = `Quilometros Corridos: ${count}`; 
 }, 10);
