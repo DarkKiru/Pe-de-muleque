@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  bacground-image: url("img/fbi.gif")
+  bacground-image: url("img/mclanche.png")
   
 }
 
@@ -19,26 +19,27 @@ body {
   width: 800px;
   position: relative;
   overflow: hidden;
-  color: aliceblue;
+  color: limegreen
 }
 
 .score {
   position: absolute;
   top: 40px;
   left: 0;
-  font-size: 50px;
-  color: aliceblue;
+  font-size: 30px;
+  background: linear-gradient(black,red)
+  
 }
 
 .dino {
   position: absolute;
   bottom: 0;
-  background-image: url(img/michael.gif);
-  width: 200px;
-  height: 130px;
-  background-size: 280px;
+  background-image: url(img/rusbe.jpg);
+  width: 180px;
+  height: 200px;
+  background-size: 200px;
   background-repeat: no-repeat;
-  transform: scaleX(-1);
+  transform: scaleX(1);
 }
 
 .cacto {
@@ -49,12 +50,13 @@ body {
   height: 110px;
   background-size: 150px;
   background-repeat: no-repeat;
-  animation: cacto 3s linear infinite;
+  animation: cacto 1.5s linear infinite;
+  
 }
 
 @keyframes cacto {
   0% {
-    right: -20px;
+    right: -220px;
   }
   100% {
     right: 850px;
@@ -76,6 +78,10 @@ body {
 
   50% {
     bottom: 100px;
+  }
+
+  60% {
+    bottom:70px;
   }
 
   80% {

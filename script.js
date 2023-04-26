@@ -31,10 +31,10 @@ setInterval(() => {
   );
 
   if (cactoLeft > 40 && cactoLeft < 155 && dinoBottom <= 50 && !alreadyJump) {
-    alert(`Você Foi Preso, Caso encerrado: ${count}`);
+    alert(`Você Foi Condenado Pelo Ronald, Caso encerrado: ${count}`);
     count = 0;
   }
 
   count++;
-  score.innerHTML = `Quilometros Corridos: ${count}`; 
+  score.innerHTML = `Tempo de Fuga: ${count}`; 
 }, 10);
